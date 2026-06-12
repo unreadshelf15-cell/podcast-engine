@@ -1,0 +1,19 @@
+{
+  "slug": "unread-shelf-en",
+  "title": "The Unread Shelf in 15",
+  "description": "Business and self-help books distilled for entrepreneurs and operators. One book, 15 minutes, real takeaways. The books you keep meaning to read — handled.",
+  "language": "en",
+  "author": "The Unread Shelf",
+  "owner_email": "",
+  "owner_email_comment": "Left empty on purpose. Apple dropped the RSS owner-email requirement in 2022; verification runs through your Apple Podcasts Connect / Apple ID account instead. If a directory ever demands one, put a dedicated alias here (NOT your personal address) — it becomes publicly visible in the feed.",
+  "category": "Business",
+  "subcategory": "Entrepreneurship",
+  "explicit": false,
+  "cover_art_path": "public/unread-shelf-en/cover.jpg",
+  "elevenlabs_voice_id": "r9qOIyZ9D1hFvO3QOmkz",
+  "elevenlabs_model": "eleven_multilingual_v2",
+  "publish_schedule": {
+    "cron": "0 11 * * 1,4",
+    "comment": "Mon and Thu at 11:00 UTC = 2 episodes/week"
+  }
+}

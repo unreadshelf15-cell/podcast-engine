@@ -1,0 +1,21 @@
+{
+  "name": "podcast-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-show automated podcast pipeline: Claude script generation -> ElevenLabs audio -> RSS -> GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "run": "node src/run.js",
+    "script": "node src/generate-script.js",
+    "audio": "node src/generate-audio.js",
+    "rss": "node src/update-rss.js",
+    "check": "node --check src/run.js && node --check src/generate-script.js && node --check src/generate-audio.js && node --check src/update-rss.js && node --check src/upload.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
